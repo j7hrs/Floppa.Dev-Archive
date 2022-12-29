@@ -111,8 +111,7 @@ const skipIntro = () => {
   if (app.skippedIntro) return;
 
   app.skippedIntro = true;
-  window.alert("Greetings! This is the first surviving modified copy of Theo's portfolio website: floppa.dev. The surviving files as follows: font, js files, HTML files, style sheets. Rest of files were restored manually. By proceeding, russian doomer music will start, and text will pop up.")
-
+  
   timeouts.forEach((timeout) => {
     clearTimeout(timeout);
   });
